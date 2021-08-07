@@ -904,7 +904,7 @@
 }
 
 .interview-boxes.open {
-  height: 550px;
+  height: 540px;
 }
 
 .interview-boxes .interview-carts {
@@ -929,6 +929,7 @@
 
 .interview .interview-btn {
   text-align: center;
+  padding-top: 1rem;
 }
 
 .interview .interview-btns {
