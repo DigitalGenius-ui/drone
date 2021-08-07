@@ -46,12 +46,14 @@
                         <div class="sign-title">
                             <h1>Login</h1>
                         </div>
-                        <div class="sign-middle">
-                            <input class="user" type="text" placeholder="Usernmae">
-                            <div class="submit">
-                                <input class="password" type="password" placeholder="Password">
-                                <button class="middle-btn" type="click"><i class="fas fa-sort-up"></i></button>
-                            </div>
+                        <form action="" method="get">
+                            <div class="sign-middle">
+                                <input class="user" type="text" placeholder="Usernmae" required>
+                                <div class="submit">
+                                    <input class="password" type="password" placeholder="Password" required>
+                                    <button class="middle-btn" type="submit"><i class="fas fa-sort-up"></i></button>
+                                </div>
+                        </form>
                             <p>Forget Password</p>
                         </div>
                         <div class="sign-foot">
@@ -63,15 +65,15 @@
                         <div class="sign-title">
                             <h1>SignUp</h1>
                         </div>
-                        <div class="sign-middle">
-                            <input type="text" placeholder="Your User">
-                            <input type="text" placeholder="Your Email">
-                            <input type="password" placeholder="Your Password">
-                            <input type="password" placeholder="Re-type Password">
-                        </div>
-                        <div class="sign-foot">
-                            <button class="sign-btn">Creat Acount</button>
-                        </div>
+                        <form action="" method="get">
+                            <div class="sign-middle">
+                                <input type="text" placeholder="Your User" required>
+                                <input type="text" placeholder="Your Email" required>
+                                <input type="password" placeholder="Your Password" required>
+                                <input type="password" placeholder="Re-type Password">
+                            </div>
+                            <button type="submit" class="sign-btn">Creat Acount</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -436,10 +438,12 @@
         <div class="sub-title">
             <h1>Subscribe A Newsletter </h1>
         </div>
-            <div class="sub-input">
-                <input type="text" placeholder="Your Email Address">
-                <button class="sub-btn"><i class="fas fa-sort-up arrow"></i></button>
-            </div>
+            <form action="" method="get">
+                <div class="sub-input">
+                    <input type="text" placeholder="Your Email Address" required>
+                    <button class="sub-btn"><i class="fas fa-sort-up arrow"></i></button>
+                </div>
+            </form>
     </section>
 
 <!-- footer part  -->
@@ -480,26 +484,6 @@
     </div>
     <p>&copy; Copyrighted By Milad Amiri 2021</p>
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- slick slider  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./slick-1.8.1/slick/slick.min.js"></script>
