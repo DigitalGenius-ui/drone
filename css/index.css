@@ -1281,11 +1281,19 @@ footer p {
 
   footer .foot-lists {
     width: 75%;
+    height: 450px;
     flex-direction: row-reverse;
+  }
+
+  footer .foot-lists .top1 {
+    margin-top: -9rem;
   }
 }
 
 @media (max-width: 375px) {
+  footer .foot-lists {
+    height: 350px;
+  }
   .header .name-flex {
     bottom: -3rem;
     left: 33%;
@@ -1315,10 +1323,22 @@ footer p {
 
   footer p {
     left: 4.7rem;
-    bottom: -7rem;
+    bottom: 0;
+  }
+
+  footer {
+    border: 1px solid #000;
   }
 
   .foot-lists .unlist li {
     padding: 0;
+  }
+
+  footer .foot-lists .top,
+  .top1 {
+    margin-top: -6rem;
+  }
+  footer .foot-lists .top1 {
+    margin-top: -6rem;
   }
 }
