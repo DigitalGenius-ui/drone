@@ -521,37 +521,6 @@
   font-weight: 500;
 }
 
-@media (max-width: 1024px) {
-  .banner .name h4 {
-    font-size: 1.4rem;
-    letter-spacing: -0.1rem;
-  }
-
-  .banner .price h4 {
-    font-size: 1.4rem;
-  }
-
-  .name-flex .price-part {
-    transform: translateX(19rem);
-  }
-
-  .name-flex .phantom1 {
-    transform: translateX(15rem);
-  }
-}
-
-@media (max-width: 910px) {
-  .header .name-flex {
-    left: 31%;
-  }
-}
-
-@media (max-width: 800px) {
-  .header .name-flex {
-    left: 29%;
-  }
-}
-
 /* banner arrows part  */
 
 .header .left {
@@ -592,7 +561,7 @@
 }
 
 .products .product {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
